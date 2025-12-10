@@ -1,5 +1,4 @@
 import time
-import math
 from .utils import generate_id
 from typing import Dict, Any
 
@@ -30,4 +29,5 @@ class TodoList:
 
     def __repr__(self) -> str:
         return f"<TodoList with {self.count()} tasks>"
+
 
