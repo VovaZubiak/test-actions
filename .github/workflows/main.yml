@@ -2,7 +2,7 @@ name: Lab 5 CI/CD Pipeline
 
 on:
   push:
-    branches: [ "main", "devops" ]
+    branches: [ "main", "devops-test" ]
   pull_request:
     branches: [ "main" ]
 
