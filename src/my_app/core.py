@@ -29,5 +29,3 @@ class TodoList:
 
     def __repr__(self) -> str:
         return f"<TodoList with {self.count()} tasks>"
-
-
